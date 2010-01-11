@@ -3,76 +3,49 @@ kde4-style-qtcurve
 A matching set of widget theme engines for GTK2, Qt3, and Qt4.
 
 Runtime requirements:
-  cygwin-1.7.0-60
-  libgcc1-4.3.2-2
-  libkdecore5-4.2.4-1
-  libQtCore4-4.5.2-1
-  libQtDBus4-4.5.2-1
-  libQtGui4-4.5.2-1
-  libstdc++6-4.3.2-2
+  cygwin-1.7.1-1
+  libgcc1-4.3.4-3
+  libkdecore5-4.3.4-1
+  libQtCore4-4.5.3-2
+  libQtDBus4-4.5.3-2
+  libQtGui4-4.5.3-2
+  libQtSvg4-4.5.3-2
+  libstdc++6-4.3.4-3
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-2.19.51-1
-  cmake-2.6.4-10
-  cygport-0.9.9-1
-  gcc4-core-4.3.2-2
-  gcc4-g++-4.3.2-2
+  cmake-2.8.0-11
+  cygport-0.9.80-1
+  gcc4-core-4.3.4-3
+  gcc4-g++-4.3.4-3
   make-3.81-2
 
 Canonical website:
   http://www.kde-look.org/content/show.php?content=40492
 
 Canonical download:
-  http://home.freeuk.com/cpdrummond/
+  http://craigd.wikispaces.com/
 
 -------------------------------------------
 
 Build instructions:
-  unpack kde4-style-qtcurve-0.67.5-X-src.tar.bz2
+  unpack kde4-style-qtcurve-1.0.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kde4-style-qtcurve-0.67.5-X.cygport all
+  cygport ./kde4-style-qtcurve-1.0.1-X.cygport all
 
 This will create:
-  /usr/src/kde4-style-qtcurve-0.67.5-X-src.tar.bz2
-  /usr/src/kde4-style-qtcurve-0.67.5-X.tar.bz2
+  /usr/src/kde4-style-qtcurve-1.0.1-X-src.tar.bz2
+  /usr/src/kde4-style-qtcurve-1.0.1-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/kde4/kstyle_qtcurve_config.dll
-  /usr/lib/kde4/plugins/styles/qtcurve.dll
-  /usr/share/doc/kde4-style-qtcurve/AUTHORS
-  /usr/share/doc/kde4-style-qtcurve/COPYING
-  /usr/share/doc/kde4-style-qtcurve/ChangeLog
-  /usr/share/doc/kde4-style-qtcurve/README
-  /usr/share/doc/kde4-style-qtcurve/TODO
-  /usr/share/kde4/apps/QtCurve/Agua.qtcurve
-  /usr/share/kde4/apps/QtCurve/Clean.qtcurve
-  /usr/share/kde4/apps/QtCurve/Clear.qtcurve
-  /usr/share/kde4/apps/QtCurve/Curve.qtcurve
-  /usr/share/kde4/apps/QtCurve/Dull_Glass.qtcurve
-  /usr/share/kde4/apps/QtCurve/Glass.qtcurve
-  /usr/share/kde4/apps/QtCurve/Glow.qtcurve
-  /usr/share/kde4/apps/QtCurve/Human.qtcurve
-  /usr/share/kde4/apps/QtCurve/Inverted.qtcurve
-  /usr/share/kde4/apps/QtCurve/Murrine.qtcurve
-  /usr/share/kde4/apps/QtCurve/Ozone.qtcurve
-  /usr/share/kde4/apps/QtCurve/Plain.qtcurve
-  /usr/share/kde4/apps/QtCurve/Plastic.qtcurve
-  /usr/share/kde4/apps/QtCurve/Shiny_Glass.qtcurve
-  /usr/share/kde4/apps/QtCurve/Silk.qtcurve
-  /usr/share/kde4/apps/color-schemes/QtCurve.colors
-  /usr/share/kde4/apps/kstyle/themes/qtc_klearlooks.themerc
-  /usr/share/kde4/apps/kstyle/themes/qtcurve.themerc
-  /usr/share/locale/tr/LC_MESSAGES/qtcurve.mo
-
-------------------
-
 Port Notes:
+
+----- version 1.0.1-1 -----
+Version bump.
 
 ----- version 0.67.5-1 -----
 Version bump.

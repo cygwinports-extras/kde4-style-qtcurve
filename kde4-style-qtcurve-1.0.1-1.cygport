@@ -2,7 +2,7 @@ inherit kde4
 
 DESCRIPTION="Qt4 QtCurve theme engine"
 HOMEPAGE="http://www.kde-look.org/content/show.php?content=40492"
-SRC_URI="http://home.freeuk.com/cpdrummond/QtCurve-KDE4-${PV}.tar.bz2"
+SRC_URI="http://craigd.wikispaces.com/file/view/QtCurve-KDE4-${PV}.tar.bz2"
 PATCH_URI="0.65.3-cmake.patch"
 
 SRC_DIR="QtCurve-KDE4-${PV}"
