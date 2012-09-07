@@ -1,0 +1,12 @@
+--- origsrc/QtCurve-KDE4-1.8.1/CMakeLists.txt	2010-12-05 16:19:26.000000000 -0600
++++ src/QtCurve-KDE4-1.8.1/CMakeLists.txt	2010-12-28 21:53:12.138962600 -0600
+@@ -74,6 +74,9 @@ if (NOT QTC_QT_ONLY)
+     find_package(KDE4 REQUIRED)
+ endif (NOT QTC_QT_ONLY)
+ find_package(Qt4 REQUIRED)
++if (Q_WS_X11)
++    find_package(X11)
++endif (Q_WS_X11)
+ 
+ configure_file(config.h.cmake ${CMAKE_BINARY_DIR}/config.h)
+ 
